@@ -33,7 +33,7 @@ def banner():
     ╚═╝  ╚═╝╚═════╝  ╚═════╝╚══════╝
 {RESET}
 {YELLOW}========================================
-{WHITE}          PHOTO BACKUP ENGINE
+{WHITE}          FB AUTO REPORT 
 {YELLOW}========================================{RESET}
 """
     print(art)
@@ -46,9 +46,9 @@ def show_banner():
 def menu():
     banner()
 
-    print(f"{GREEN} [1] {WHITE}START BACKUP{RESET}")
-    print(f"{RED}   [2] {WHITE}STOP BACKUP{RESET}")
-    print(f"{CYAN}  [3] {WHITE}BACKUP STATUS{RESET}")
+    print(f"{GREEN} [1] {WHITE}START REPORT{RESET}")
+    print(f"{RED}   [2] {WHITE}STOP REPORT{RESET}")
+    print(f"{CYAN}  [3] {WHITE}REPORT STATUS{RESET}")
     print(f"{YELLOW} [4] {WHITE}EXIT{RESET}")
 
     print(f"{YELLOW}========================================{RESET}")
