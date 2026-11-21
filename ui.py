@@ -73,11 +73,11 @@ def run_visual_effect(stop_event):
                 break
 
             print(
-                f"\r{CYAN}[ BACKUP ENGINE ] {frame} Processing...{RESET}",
+                f"\r{CYAN}[ REPORT SENT ] {frame} Processing...{RESET}",
                 end="",
                 flush=True
             )
 
             time.sleep(0.15)
 
-    print(f"\r{GREEN}[ BACKUP ENGINE ] Stopped.          {RESET}")
+    print(f"\r{GREEN}[ REPORT ENGINE ] Stopped.          {RESET}")
